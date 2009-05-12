@@ -1,0 +1,9 @@
+Server -> Client
+L(06) 00 O(80 30) 00 00 02 3F 3F 03 00 04 
+
+06 00 - Size
+80 30 - Opcode
+00 00 - Security Packet
+02 - Type
+3F 3F 03 00 - From Character ID
+04 - Unsure

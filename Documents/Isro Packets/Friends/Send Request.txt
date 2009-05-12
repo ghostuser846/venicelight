@@ -1,0 +1,16 @@
+Player Doesnt Exist or offline
+
+[C -> S][7164][6 bytes]
+
+04 00 74 65 73 74                                 
+
+[S -> C][B164][2 bytes]
+
+02 0D                          
+
+
+
+Send Request
+[C -> S][7164][6 bytes]
+
+04 00 69 46 6B 75                                 

@@ -1,0 +1,33 @@
+
+Add Skill [F2, 01]
+
+[C -> S][7541][7 bytes]
+
+01 01 49 CD 02 00 00   
+
+
+Add Skill [F1, 01]
+[C -> S][7541][7 bytes]
+
+01 0B 49 CD 02 00 00                                                     
+
+
+
+
+Move Skill [F2, 02]          
+
+[C -> S][7541][7 bytes]
+
+01 0B 00 00 00 00 00   
+                         
+ [C -> S][7541][7 bytes]
+
+01 0C 49 CD 02 00 00     
+
+
+                       
+Remove Skill [F2, 02]
+
+[C -> S][7541][7 bytes]
+
+01 0C 00 00 00 00 00                            
