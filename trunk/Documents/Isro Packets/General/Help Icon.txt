@@ -1,0 +1,21 @@
+Help Icon [ON]
+[C -> S][7683][1 bytes]
+
+02                                                
+
+[S -> C][B683][5 bytes]
+
+74 48 B5 01 02                                   
+
+
+
+
+Help Icon [OFF]
+[C -> S][7683][1 bytes]
+
+00                      
+                          
+[S -> C][B683][5 bytes]
+
+74 48 B5 01 00                                    
+

@@ -1,0 +1,6 @@
+[<Unlabeled 11B1FE8>][C -> S][3012][9 bytes]
+84 03 00 00 96 B0 7A 00 00                        ......z.........
+
+[<Unlabeled 11B1FE8>][S -> C][B164][11 bytes]
+02 0B 00 06 00 45 63 6B 6F 72 6F                  .....Eckoro.....
+

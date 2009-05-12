@@ -1,0 +1,7 @@
+Client
+L(05) 00 O(60 70) 59 3F 5A 3F 44 00 04 
+
+05 00 - Size
+60 70 - Opcode
+59 3F - Security Packets
+5A 3F 44 00 04  - Name

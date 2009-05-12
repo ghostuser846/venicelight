@@ -1,0 +1,11 @@
+50 universal pills
+2000 gold
+
+[C -> S][71A8][3 bytes]
+
+03 04 00                                          
+
+
+[S -> C][B1A8][4 bytes]
+
+01 03 00 FF                                 

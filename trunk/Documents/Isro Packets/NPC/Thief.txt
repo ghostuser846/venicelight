@@ -1,0 +1,48 @@
+European Thief
+
+Select
+[C -> S][745A][4 bytes]
+
+0C 01 00 00  
+                                     
+[S -> C][B45A][11 bytes]
+
+01 0C 01 00 00 00 80 00 00 00 00                 
+
+
+
+
+Cannot Go because you are not a thieft
+[C -> S][7495][9 bytes]
+
+0C 01 00 00 02 0D 00 00 00 
+                       
+[S -> C][B495][2 bytes]
+
+02 18                                             
+
+
+
+
+China Thieft
+
+Select
+[C -> S][745A][4 bytes]
+
+2D 00 00 00                                       
+
+[S -> C][B45A][11 bytes]
+
+01 2D 00 00 00 00 80 00 00 00 00                 
+
+
+
+
+Cannot Go because you are not a thieft
+[C -> S][7495][9 bytes]
+
+2D 00 00 00 02 0D 00 00 00                    
+
+[S -> C][B495][2 bytes]
+
+02 18                                             

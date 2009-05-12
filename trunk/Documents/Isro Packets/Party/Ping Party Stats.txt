@@ -1,0 +1,9 @@
+The 18 byte version and 7 byte. I guess the 18 byte is characters stats, hp, mp etc
+
+
+[S -> C][3E58][7 bytes]
+06 C5 26 8C 00 04 7B                             
+
+[S -> C][3E58][18 bytes]
+
+06 B5 7F 5C 00 20 74 69 00 05 00 01 9B 05 01 00 01 00                        

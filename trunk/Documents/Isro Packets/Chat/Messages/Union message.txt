@@ -1,0 +1,9 @@
+[<Unlabeled 11B1FE8>][C -> S][7600][75 bytes]
+02 02 05 00 44 69 7A 7A 59 0A 00 4E 69 67 68 74   ....DizzY..Night
+43 75 72 73 65 34 00 69 67 6E 6F 72 65 20 74 68   Curse4.ignore.th
+69 73 20 6D 65 73 73 61 67 65 2E 20 67 65 74 74   is.message..gett
+69 6E 67 20 70 61 63 6B 65 74 20 66 6F 72 20 65   ing.packet.for.e
+53 52 4F 20 70 72 6F 6A 65 63 74                  SRO.project.....
+
+[<Unlabeled 11B1FE8>][S -> C][B600][2 bytes]
+01 00                                             ................

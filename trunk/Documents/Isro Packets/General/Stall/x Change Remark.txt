@@ -1,0 +1,21 @@
+[C -> S][71A8][11 bytes]
+
+06 04 00 74 00 65 00 73 00 74 00                  
+
+
+06 -
+04 00 - Remark Name Length
+74 00 65 00 73 00 74 00 - Remark Name
+
+
+
+
+
+[S -> C][B1A8][12 bytes]
+
+01 06 04 00 74 00 65 00 73 00 74 00   
+
+01 - Success?
+06 -
+04 00 - Remark Name Length
+74 00 65 00 73 00 74 00 - Remark Name            

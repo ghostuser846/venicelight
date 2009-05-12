@@ -1,0 +1,21 @@
+Pick 2000 gold
+
+[C -> S][72CD][7 bytes]
+
+01 02 01 10 EC BF 01                             
+
+[S -> C][B2CD][2 bytes]
+
+01 01                                             
+
+[S -> C][30B3][10 bytes]
+
+01 D4 B1 1D 03 00 00 00 00 00 
+                    
+[S -> C][B2CD][2 bytes]
+
+02 00        
+                                     
+[S -> C][B06D][7 bytes]
+
+01 06 FE E8 03 00 00                              

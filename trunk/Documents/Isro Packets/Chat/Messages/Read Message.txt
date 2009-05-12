@@ -1,0 +1,9 @@
+[<Unlabeled 11B1FE8>][C -> S][73F2][1 bytes]
+00                                                ................
+
+[<Unlabeled 11B1FE8>][S -> C][B3F2][62 bytes]
+01 00 3A 00 79 6F 75 72 20 61 20 66 76 63 6B 69   ..:.your.a.fvcki
+6E 67 20 74 77 61 74 20 69 20 68 61 74 65 20 79   ng.twat.i.hate.y
+6F 75 2E 20 6E 6F 77 20 67 69 76 65 20 6D 65 20   ou..now.give.me.
+79 6F 75 72 20 6D 6F 6E 65 79 20 3E 20 44         your.money.>.D..
+
