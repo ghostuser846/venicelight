@@ -1,0 +1,74 @@
+Index: Character.cpp
+===================================================================
+--- Character.cpp	(revision 78)
++++ Character.cpp	(working copy)
+@@ -127,15 +127,61 @@
+ 					AddItem(charid, i+3, _item[i]);
+ 				}
+ 
+-				/* Note: need European support here. */
+-				AddMastery(charid, 257);
+-				AddMastery(charid, 258);
+-				AddMastery(charid, 259);
+-				AddMastery(charid, 273);
+-				AddMastery(charid, 274);
+-				AddMastery(charid, 275);
+-				AddMastery(charid, 276);
++				/* check weapon so if it was sword or blade 
++				give him a shield */
++				if (_item[3] == 3632 || _item[3] == 3633)
++				{
++					AddItem(charid, 7, 10728);
++				}
++				/* or give him some arrows */
++				else if (_item[3] == 3636)
++				{
++					AddItem(charid, 7, 3655, 250,1);
++				}
++				/* or give him an euro shield */
++				else if (_item[3] == 10730 || _item[3] == 10734 || _item[3] == 10737)
++				{
++					AddItem(charid, 7, 10738);
++				}
++				/* and finaly give him some bolts :) */
++				else if (_item[3] == 10733)
++				{
++					AddItem(charid, 7, 10727, 250,1);
++				}
++				else
++				{
++					/* nothing to do*/
++				}
+ 
++				/* simple check
++				ch char from 1907 to 1932
++				eu char from 14717 to 14742
++				or you can check CHAR_CH or CHAR_EU */
++				if (model >= 1907 && model <= 1932)
++				{
++					AddMastery(charid, 257);
++					AddMastery(charid, 258);
++					AddMastery(charid, 259);
++					AddMastery(charid, 273);
++					AddMastery(charid, 274);
++					AddMastery(charid, 275);
++					AddMastery(charid, 276);
++				}
++				else if (model >= 14717 && model <= 14742)
++				{
++					AddMastery(charid, 513);
++					AddMastery(charid, 514);
++					AddMastery(charid, 515);
++					AddMastery(charid, 516);
++					AddMastery(charid, 517);
++					AddMastery(charid, 518);
++				}
++				else
++				{
++					/* hack detect
++					do something :) */
++				}
++
+ 				Writer.WriteByte(0x01);
+ 
+ 			} 
