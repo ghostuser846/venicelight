@@ -1,0 +1,4 @@
+SVN ADDRESS: https://nswow.googlecode.com/svn/trunk/
+
+USERNAME: mike@red-phoenix.info
+PASSWORD: RQ4BQ9GM9gp2
