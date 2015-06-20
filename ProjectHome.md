@@ -1,0 +1,1 @@
+Silkroad Online English Emulator - -- - - -- Runed by [WoW](WoW.md) Venice Team & [Sro](Sro.md) Venice Team
